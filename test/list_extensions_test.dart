@@ -1,4 +1,4 @@
-import 'package:simple_list_extensions/stx_list_extensions.dart';
+import 'package:stx_list_extensions/stx_list_extensions.dart';
 import 'package:test/test.dart';
 
 void main() {
