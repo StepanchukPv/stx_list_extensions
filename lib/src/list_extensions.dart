@@ -1,8 +1,11 @@
 extension ListExtension<T> on List<T> {
+  /// Changes item index from [oldIndex] to [newIndex];
   void reorder(int oldIndex, int newIndex) {
     insert(newIndex, removeAt(oldIndex));
   }
 
+  // Replace one item witch math [predicate]
+  // using toReplace function
   List<T> replaceWhere(
     bool Function(T element) predicate,
     T Function(T oldValue) toReplace, {
@@ -13,6 +16,7 @@ extension ListExtension<T> on List<T> {
     return (deepCopy ? toList() : this)..[index] = toReplace(this[index]);
   }
 
+  /// Returns items witch match test function
   Iterable<T> whereIndexed(
     bool Function(int index, T element) test,
   ) sync* {
