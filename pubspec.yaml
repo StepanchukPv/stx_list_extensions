@@ -1,6 +1,8 @@
-name: simple_list_extensions
+name: stx_list_extensions
 description: A starting point for Dart libraries or applications.
 version: 1.0.0
+
+repository: https://github.com/StepanchukPv/stx_list_extensions
 # homepage: https://www.example.com
 
 environment:
