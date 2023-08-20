@@ -10,7 +10,7 @@ void main() {
       expect(emptyList.isNullOrEmpty, true);
     });
 
-    test('Simple case with null value list', () {
+    test('Simple case with null list', () {
       List? nullList;
 
       expect(nullList.isNullOrEmpty, true);
@@ -24,7 +24,7 @@ void main() {
       expect(emptyList.isNullOrNotEmpty, false);
     });
 
-    test('Simple case with null value list', () {
+    test('Simple case with null list', () {
       List? nullList;
 
       expect(nullList.isNullOrEmpty, true);
