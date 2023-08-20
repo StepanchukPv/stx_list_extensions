@@ -1,4 +1,3 @@
 void main() {
-  // var awesome = Awesome();
-  // print('awesome: ${awesome.isAwesome}');
+  final simpleList = ['subject', 'pan', 'interface', 'analysis', 'illustrate'];
 }
