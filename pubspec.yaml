@@ -1,5 +1,5 @@
 name: stx_list_extensions
-description: A starting point for Dart libraries or applications.
+description: Provides useful list extensions
 version: 1.0.0
 
 repository: https://github.com/StepanchukPv/stx_list_extensions
