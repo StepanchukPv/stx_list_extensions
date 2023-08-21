@@ -1,3 +1,6 @@
+## 1.0.4
+
+- Added new feature
 ## 1.0.0
 
 - Initial version.
@@ -9,4 +12,8 @@
 - Added readme
 
 ## 1.0.3
-- Small fixes
+- Small 
+
+## 1.0.4
+
+- Added new feature
