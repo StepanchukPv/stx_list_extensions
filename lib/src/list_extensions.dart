@@ -34,4 +34,8 @@ extension ListExtension<T> on List<T> {
       yield test(i, element);
     }
   }
+
+  T? get firstOrNull {
+    return isEmpty ? null : first;
+  }
 }
