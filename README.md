@@ -2,10 +2,6 @@
 
 Some useful extensions to the list.
 
-## Features
-
-Package contains useful extension for list 
-
 ## Usage
 
 ```dart
